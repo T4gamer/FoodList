@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/FoodFragment">
+
+    <fragment
+        android:id="@+id/FoodFragment"
+        android:name="com.asascompany.foodlist.FoodFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_food" >
+        <action
+            android:id="@+id/action_FoodFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.asascompany.foodlist.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="price"
+            app:argType="float" />
+        <argument
+            android:name="details"
+            app:argType="string" />
+    </fragment>
+</navigation>

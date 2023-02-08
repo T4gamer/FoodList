@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FoodList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_profile_fragment">this is Profile Fragment</string>
+    <string name="small_font">small font</string>
+    <string name="meduim_font">meduim font</string>
+    <string name="large_font">large font</string>
+</resources>
