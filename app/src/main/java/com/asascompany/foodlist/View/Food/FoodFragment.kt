@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.asascompany.foodlist.Model.FoodData
 import com.asascompany.foodlist.R
 import com.asascompany.foodlist.SharedPrefs
 import com.asascompany.foodlist.databinding.FragmentFoodBinding

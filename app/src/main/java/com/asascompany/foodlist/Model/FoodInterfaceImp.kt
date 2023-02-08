@@ -1,7 +1,5 @@
 package com.asascompany.foodlist.Model
 
-import com.asascompany.foodlist.View.Food.FoodData
-
 class FoodInterfaceImp :FoodInterface {
     var foodItems: MutableList<FoodData> = mutableListOf()
 //        get() = foodItems
@@ -15,7 +13,7 @@ class FoodInterfaceImp :FoodInterface {
         foodItems.removeLast()
     }
 
-    override fun addItem(item:FoodData) {
+    override fun addItem(item: FoodData) {
         foodItems.add(item)
     }
 }

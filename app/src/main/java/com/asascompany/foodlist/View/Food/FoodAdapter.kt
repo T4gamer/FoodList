@@ -6,6 +6,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.asascompany.foodlist.Model.FoodData
 import com.asascompany.foodlist.SharedPrefs
 import com.asascompany.foodlist.databinding.FoodItemBinding
 

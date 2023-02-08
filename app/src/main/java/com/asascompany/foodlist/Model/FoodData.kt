@@ -1,4 +1,4 @@
-package com.asascompany.foodlist.View.Food
+package com.asascompany.foodlist.Model
 
 import androidx.annotation.DrawableRes
 
