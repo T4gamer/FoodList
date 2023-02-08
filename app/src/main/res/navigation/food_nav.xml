@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FoodFragment"
-        android:name="com.asascompany.foodlist.FoodFragment"
+        android:name="com.asascompany.foodlist.View.Food.FoodFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_food" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.asascompany.foodlist.DetailsFragment"
+        android:name="com.asascompany.foodlist.View.Food.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details" >
         <argument

@@ -1,10 +1,11 @@
-package com.asascompany.foodlist
+package com.asascompany.foodlist.View.Food
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.asascompany.foodlist.R
+import com.asascompany.foodlist.SharedPrefs
 import com.asascompany.foodlist.databinding.FragmentFoodBinding
 
 
@@ -12,10 +13,10 @@ class FoodFragment : Fragment(R.layout.fragment_food) {
 
     private var _binding: FragmentFoodBinding? = null
     private val binding get() = _binding!!
-    lateinit private var adapter :FoodAdapter
+    lateinit private var adapter : FoodAdapter
     private val namesList = mutableListOf(
-        FoodData("Cookies", 5.0f,"10 pieces of chocolate Cookies",R.drawable.ic_baseline_menu_24),
-        FoodData("Pizza", 15.0f,"normal cheese pizza",R.drawable.ic_baseline_menu_24),
+        FoodData("Cookies", 5.0f,"10 pieces of chocolate Cookies", R.drawable.ic_baseline_menu_24),
+        FoodData("Pizza", 15.0f,"normal cheese pizza", R.drawable.ic_baseline_menu_24),
     )
 
 

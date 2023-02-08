@@ -1,4 +1,4 @@
-package com.asascompany.foodlist
+package com.asascompany.foodlist.View.Food
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,9 +6,12 @@ import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.asascompany.foodlist.SharedPrefs
 import com.asascompany.foodlist.databinding.FoodItemBinding
 
-class FoodAdapter(val settings:SharedPrefs) : ListAdapter<FoodData, RecyclerView.ViewHolder>(DIFF_CALLBACK){
+class FoodAdapter(val settings: SharedPrefs) : ListAdapter<FoodData, RecyclerView.ViewHolder>(
+    DIFF_CALLBACK
+){
     companion object{
         private val DIFF_CALLBACK = object : DiffUtil.ItemCallback<FoodData>() {
 

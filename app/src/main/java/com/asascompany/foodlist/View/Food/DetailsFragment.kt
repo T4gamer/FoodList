@@ -1,9 +1,10 @@
-package com.asascompany.foodlist
+package com.asascompany.foodlist.View.Food
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
 import androidx.navigation.fragment.navArgs
+import com.asascompany.foodlist.R
 import com.asascompany.foodlist.databinding.FragmentDetailsBinding
 
 
